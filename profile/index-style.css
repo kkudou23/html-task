@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+div{
+    background-color:rgb(219, 219, 219);
+}
+
+.color-gray{
+    color: gray;
+}
+
+span{
+    border-bottom:2px dashed gray;
+}
