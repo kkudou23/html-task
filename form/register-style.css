@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+th, td {
+    border: solid 1px white;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+th {
+    background-color: #787065;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+td{
+    background-color: #D1CCC6;
+}
+
+span {
+    font-size: 12px;
+}
+
+#req {
+    background-color: red;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 2px;
+}
+
+#reon {
+    background-color: #91887F;
+}
+
+button {
+    width: 150px;
+    padding: 3px;
+}
