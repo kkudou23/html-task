@@ -3,7 +3,7 @@
 body {
     height: 100vh;
     overflow-y: hidden;
-    background-image: url(../img/background.jpg);
+    background-image: url(img/background.jpg);
     background-repeat: repeat;
 }
 
