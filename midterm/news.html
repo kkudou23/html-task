@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>気になったニュース</title>
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+
+    <!-- 自作CSS -->
+    <link rel="stylesheet" href="css/all-style.css">
+    
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- 仮ファビコン -->
+    <link rel="icon" href="img/favicon.ico">
+    
+    <!-- ページトップに戻るボタン -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+</head>
+<body>
+    <div id="page-top"></div>
+    <header>
+        <h1><a href="index.html">HTML/CSS 中間課題</a></h1>
+        <nav>
+            <ul>
+                <li><a href="it-history/index.html">ITの歴史</a></li>
+                <li><a href="occupation.html">気になる職業</a></li>
+                <li class="currently-page">気になったニュース</li>
+                <li><a href="self-introduction.html">自己紹介</a></li>
+            </ul>
+        </nav>
+        
+        <ol class="breadcrumbs">
+            <li><a href="index.html">TOP</a></li>
+            <li>気になったニュース</li>
+        </ol>
+    </header>
+
+    <main>
+        <a href="#page-top" title="ページトップに戻る"><i class="fas fa-chevron-circle-up"></i></a>
+
+        <div id="toc">
+            <p><i class="fas fa-list"></i>目次</p>
+            <ul>
+                <li><a href="#report-with-video"> 4月1日 - 110番通報を映像で</a></li>
+                <li><a href="#twitter-became-x">7月24日 - Twitterが「X」に名称変更</a></li>
+                <li><a href="#OSO18">7月30日 - OSO18、駆除される</a></li>
+            </ul>
+        </div>
+
+        <article>
+            <h2 class="article-title" id="report-with-video"> 4月1日 - 110番通報を映像で</h2>
+            <div class="article-quote">
+                <p>事件や事故の発生現場で、110番通報者からスマートフォンで画像や動画を送ってもらう「110番映像通報システム」の運用が全国の警察で始まった。
+                    警察官が現場に着く前に状況を確認することで、初動対応の向上を図る狙いだ。</p>
+                <p class="article-quote-from">引用 : <a href="https://www.asahi.com/articles/ASR587S1KR4TPTLC00T.html" target="_blank">初動素早く、画像・動画で110番通報　警察新システム、記者が体験 [愛媛県]：朝日新聞デジタル</a></p>
+            </div>
+            <p class="article-text">
+                通信指令室に密着取材した映像を見てみると、緊急事態を目の前にして冷静に状況を伝えることができない人も少なくないため、今回のシステムの導入により通報者が言葉で上手く説明できなくても、送ってもらった映像を元に事件や事故への対応を取ることができるというのは良いと思いました。
+            </p>
+        </article>
+
+        <article>
+            <h2 class="article-title" id="twitter-became-x">7月24日 - Twitterが「X」に名称変更</h2>
+            <div class="article-quote">
+                <p>ツイッターの公式アカウントは、24日、アカウント名とアイコンの画像がともに「X」に変更されたことが確認され、ツイッターの象徴だった青い鳥のロゴは廃止されました。<br><br>
+                    ツイッター社は、会社を買収したイーロン・マスク氏の企業「X社」とことし4月に合併したため、社名はすでになくなり、SNSのサービスの運営はX社が担っていて、ブランドを社名に合わせた形です。<br><br>
+                    (中略)<br><br>
+                    マスク氏は、電子決済など日常のあらゆる場面で使えるアプリを作りたいとしていて、ブランドの変更で開発を強化するとみられます。</p>
+                <p class="article-quote-from">引用 : <a href="https://www3.nhk.or.jp/news/html/20230725/k10014141211000.html" target="_blank">ツイッター 青い鳥のロゴ廃止 ブランドを「X」に正式変更 | NHK | IT・ネット</a></p>
+            </div>
+            <p class="article-text">
+                今までの「つぶやき」(tweet)が飛び交うSNSから、電子決済など様々な機能を持った「スーパーアプリ」にしていきたいとイーロン・マスクが言っているのを聞いてとても悲しく思いました。<br>
+                私が幼稚園に通う前から存在していて中学校の頃からずっと愛用してきたSNSであるTwitter。「Xというスーパーアプリを作りたい」という思いは良いと思うのですが、できればTwitterを買収して色々改造する形で実現するのではなく、オリジナルで作って欲しかったなと思いました。
+            </p>
+        </article>
+
+        <article>
+            <h2 class="article-title" id="OSO18">7月30日 - OSO18、駆除される</h2>
+            <div class="article-quote">
+                <p>北海道釧路総合振興局は22日午後、記者会見し、先月30日の午前5時ごろ、釧路町仙鳳趾村の放牧地で許可を受けたハンターが駆除したヒグマが、OSO18だと特定されたと明らかにしました。<br><br>
+                    ヒグマは、先月28日に初めてこの放牧地で目撃され、人を見ても逃げないためハンターが有害だと判断し、駆除したということです。<br><br>
+                    当初はOSO18かどうか分からなかったものの、DNA鑑定の結果、今月18日に特定されたということです。<br><br>
+                    体長は2メートル10センチ、名前の数字の由来ともなった前足の幅は、想定していた18センチではなく20センチあり、体長などから体重は330キロと推定されるということです。<br><br>
+                    釧路町に隣接する標茶町と厚岸町では、4年前からことし6月にかけて、放牧中の牛あわせて66頭が襲われ、このうち32頭が死ぬ被害が出ていて、いずれもOSO18による被害とみられています。</p>
+                <p class="article-quote-from">引用 : <a href="https://www3.nhk.or.jp/news/html/20230822/k10014170371000.html" target="_blank">牛襲うヒグマ「OSO18」を駆除と発表 北海道 | NHK | 北海道</a></p>
+            </div>
+            <p class="article-text">
+                野生のクマによる被害が例年よりずっとひどかった今年、4年前から恐れられてきたOSO18がそうとは知られず駆除されたということで、とても驚きました。<br>
+                私は幸いなことに今まで生きている野生のクマに遭遇したことが無いので具体的な恐怖が想像できませんが、そのうちクマの恐ろしさや今後人間はクマに対してどういった対策を取れば良いのかについて学んでみたいと思いました。
+            </p>
+        </article>
+    </main>
+
+</body>
+</html>

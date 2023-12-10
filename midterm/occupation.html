@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>気になる職業</title>
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+
+    <!-- 自作CSS -->
+    <link rel="stylesheet" href="css/all-style.css">
+
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;800&display=swap" rel="stylesheet">
+
+    <!-- 仮ファビコン -->
+    <link rel="icon" href="img/favicon.ico">
+
+    <!-- ページトップに戻るボタン -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+</head>
+<body>
+    <div id="page-top"></div>
+    <header>
+        <h1><a href="index.html">HTML/CSS 中間課題</a></h1>
+        <nav>
+            <ul>
+                <li><a href="it-history/index.html">ITの歴史</a></li>
+                <li class="currently-page">気になる職業</li>
+                <li><a href="news.html">気になったニュース</a></li>
+                <li><a href="self-introduction.html">自己紹介</a></li>
+            </ul>
+        </nav>
+        
+        <ol class="breadcrumbs">
+            <li><a href="index.html">TOP</a></li>
+            <li>気になる職業</li>
+        </ol>
+    </header>
+
+    <main>
+        <a href="#page-top" title="ページトップに戻る"><i class="fas fa-chevron-circle-up"></i></a>
+
+        <div id="toc">
+            <p><i class="fas fa-list"></i>目次</p>
+            <ol>
+                <li><a href="#web-eng">Webエンジニア</a></li>
+                <li><a href="#embedded-eng">組み込みエンジニア</a></li>
+                <li><a href="#qa-eng">QAエンジニア</a></li>
+            </ol>
+        </div>
+
+            <article>
+            <h2 class="article-title" id="web-eng">Webエンジニア</h2>
+            <p class="article-text">
+                WebサイトやWebアプリケーションの設計・開発・保守を行う職業です。<br>
+                「フロントエンドエンジニア」と「バックエンドエンジニア」に分けられます。<br>
+            </p>
+            <ul>
+                <li>フロントエンドエンジニア
+                    <ul class="explain">
+                        <li>Webデザインや動作などのインターフェース部分を開発する職業です。</li>
+                        <li>主にHTML、CSS、JavaScriptなどを利用します。</li>
+                    </ul>
+                </li>
+                <li>バックエンドエンジニア
+                    <ul class="explain">
+                        <li>「サーバーサイドエンジニア」とも呼ばれる、サーバー・データベースの構築やプログラミングなどを行う職業です。</li>
+                        <li>主にPython、Ruby、PHPなどを利用します。</li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="article-text">
+                WebサイトやWebアプリケーションはたくさんの人々が毎日触れるものであり、今後も需要は増え続けるだろうから。<br>
+                また一般的に私服出勤やリモートワークなど働き方の自由度が高いとされているのが魅力的と感じました。
+            </p>
+        </article>
+
+        <article>
+            <h2 class="article-title" id="embedded-eng">組み込みエンジニア</h2>
+            <p class="article-text">
+                機器やデバイス内に組み込まれるソフトウェアや制御システムの開発を行う職業です。<br>
+                組み込む対象であるハードウェアにまつわる知識が求められる点や、限られたリソースの中で要求された機能を実現するために
+                効率的なコードを書かなければいけない点などから難しい職業とされますが、その分平均年収が高く、スキル次第では年収1000万円を実現できる可能性があります。
+            </p>
+            <p class="article-text">
+                IoTの普及から需要がより増えている点や、自分が開発に携わった製品が実際に販売され使用されている様子を見てみたいなどの理由から気になっています。
+            </p>
+        </article>
+
+        <article>
+            <h2 class="article-title" id="qa-eng">QAエンジニア</h2>
+            <p class="article-text">
+                QAはQuality Assurance(品質保証)の頭文字であり、ソフトウェアやアプリケーションが正しく動作し、品質基準を満たしているか確認を行う職業です。<br>
+                テストプランの作成、静的・動的なテスト実施、結果の分析と報告、修正の提案や作業の支援などが主な仕事です。<br>
+                開発されたシステムが設計通りに作られているかだけではなく、使いやすい仕組みとなっているかなども確認します。
+            </p>
+            <p class="article-text">
+                システムのミスを見つけるため細かいところまでチェックしたり、改善案を出してより使いやすくしたりするのが好きなので、自分に向いているのではないかと感じました。
+            </p>
+        </article>
+    </main>
+
+</body>
+</html>
